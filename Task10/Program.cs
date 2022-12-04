@@ -5,4 +5,5 @@ using System;
     int num = Convert.ToInt32(Console.ReadLine());
     string stringNumber = Convert.ToString(num);
     Console.WriteLine("Вторая цифра числа = "+stringNumber[1]);
+    Console.ReadKey();
 }
